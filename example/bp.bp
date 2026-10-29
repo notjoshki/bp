@@ -1,0 +1,6 @@
+cc = gcc
+cflags = -Wall -Wextra -g
+out = example
+srcs = find(*.c)
+
+1: $cc $cflags -o $out $srcs
